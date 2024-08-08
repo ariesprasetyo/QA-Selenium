@@ -9,14 +9,14 @@
       When User input "John Doe" as userName and input "ThisIsNotAPassword" as password
       Then User already on Main Page
 
-    Scenario: Login with empty username and password
+    Scenario: Login with Empty Username and Password
       When User input "" as userName and input "" as password
       Then User already on Login Page
 
-    Scenario: Login with empty username
+    Scenario: Login with Empty Username
       When User input "" as userName and input "ThisIsNotAPassword" as password
       Then User already on Login Page
 
-    Scenario: Login with empty password
+    Scenario: Login with Empty Password
       When User input "Jhon Doe" as userName and input "" as password
       Then User already on Login Page
